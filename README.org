@@ -1,0 +1,32 @@
+* Environment
+
+** Localhost 
+
+sudo gem install foreman
+
+
+
+* Install
+
+npm bundle install
+
+echo FACEBOOK_APP_ID=12345 >> .env
+echo FACEBOOK_SECRET=abcde >> .env
+
+foreman start
+
+* Deployment 
+
+** Install Heroku 
+
+** Create Cedar stack 
+
+** Deploy to Heroku via Facebook integration
+
+
+    heroku create --stack cedar
+    git push heroku master
+    heroku config:add FACEBOOK_APP_ID=12345 FACEBOOK_SECRET=abcde
+
+
+
