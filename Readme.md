@@ -1,9 +1,4 @@
-Facebook/Heroku sample app -- Node.js
-=====================================
-
-This is a sample app showing use of the Facebook Graph API, written in Node.js, designed for deployment to [Heroku](http://www.heroku.com/).
-
-Run locally
+Install
 -----------
 
 Install dependencies:
